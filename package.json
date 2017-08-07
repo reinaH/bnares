@@ -1,0 +1,22 @@
+{
+  "name": "bnares",
+  "bin": "server.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "pkg": {
+    "scripts": "server.js",
+    "assets": "public/**/*"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
